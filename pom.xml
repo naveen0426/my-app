@@ -40,11 +40,11 @@
   
 <distributionManagement>
      <snapshotRepository>
-    <id>NEXUS</id>
+    <id>deployment</id>
     <url>http://192.168.23.110:8081/nexus/content/repositories/NEXUS</url>
   </snapshotRepository>
 	  <repository>
-    <id>nexus</id>
+    <id>deployment</id>
     <url>http://192.168.23.110:8081/nexus/content/repositories/nexus</url>
   </repository>
 </distributionManagement>
