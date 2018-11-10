@@ -3,19 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-               before_script = "echo before"
-               script = 'echo building'      
-            }
-        }
-        stage('Test') {
-            steps {
-               before_script = "echo before"
-               script = 'echo building'
-            }
-        }
-        stage('Deploying') {
-            steps {
-                echo 'Deploying'
+               sh 'echo build'      
             }
         }
     }
